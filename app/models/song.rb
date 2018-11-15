@@ -3,4 +3,5 @@ class Song < ActiveRecord::Base
 
   def name_and_title
     "#{self.artist.name} - #{self.title}"
+  end
 end
